@@ -35,6 +35,7 @@ You can find me on [GitHub](https://github.com/{{ site.github_username }}), [Twi
 - [FluentValidation](https://github.com/JeremySkinner/FluentValidation)
 - [MahApps.Metro](https://github.com/MahApps/MahApps.Metro)
 - [MSBuildSdkExtras](https://github.com/onovotny/MSBuildSdkExtras)
+- [Nuke](https://github.com/nuke-build/nuke)
 - [Opserver](https://github.com/opserver/Opserver)
 - [packer](https://github.com/hashicorp/packer)
 - [Paket](https://github.com/fsprojects/Paket)
