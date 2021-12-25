@@ -5,7 +5,7 @@ title_text: Who am i and what am i doing
 permalink: /about/
 weight: -100
 ---
-![Gravatar of {{ site.realname }}]({{ site.gravatar }} "Gravatar of {{ site.realname }}")
+<img src="{{ site.gravatar }}" alt="Gravatar of {{ site.realname }}" width="{{ site.gravatar_size }}" height="{{ site.gravatar_size }}" />
 
 I'm {{ site.realname }}. A software developer living in [Herten](https://binged.it/2g7gp3t) (Germany), working at [PROSOZ Herten](http://prosoz.de).
 You can find me on [GitHub](https://github.com/{{ site.github_username }}), [Twitter](https://twitter.com/batzendev) or [Gitter](https://gitter.im/batzen).

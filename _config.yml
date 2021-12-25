@@ -22,6 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: batzendev
 github_username:  batzen
+gravatar_size: 80
 gravatar: https://s.gravatar.com/avatar/7f4a32b98566f870b8443d9c8dcffa2e?s=80
 
 # Collections
