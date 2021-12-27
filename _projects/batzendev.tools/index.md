@@ -8,26 +8,35 @@ title: Batzendev.Tools
 Just a suite of tools.
 Currently included:
 
-- Finder (searches and replaces text in files)
+- Text-Finder: Search and replace text in files
+- File-Finder: Search for files and directories
 
 Binaries for the tool can be found at [chocolatey](https://chocolatey.org/packages/Batzendev.Tools).
 If you are using my little tool and encounter any issues or have ideas for improvements feel free to [provide feedback](https://github.com/batzen/Batzendev.Tools).
 
-### Finder
+### Text-Finder
 
-You can search and replace text in files. It's supposed to be very fast.
+Lets you search and replace text in files. It's supposed to be very fast.
 
 It uses [Ude](https://github.com/errepi/ude) to detect the encoding of files.
 
-### Screenshots
+<img src="images/Text-Finder.png" alt="Screenshot of Text-Finder" width="800" height="600" />
 
-Coming soon.
+### File-Finder
+
+Lets you find files and directories. It's also supposed to be very fast.
+
+<img src="images/File-Finder.png" alt="Screenshot of Text-Finder" width="800" height="600" />
+
+### Remarks
+
+Neither Text-Finder nor File-Finder use any kind of caching or indexing.
 
 ### License
 
 MIT License
 
-Copyright (c) 2009 - 2020 {{ site.realname }}
+Copyright (c) 2009 - 2021 Bastian Schmidt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
