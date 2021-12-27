@@ -32,9 +32,17 @@ collections:
 
 # Build settings
 markdown: kramdown
-#theme: minima
+theme: minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme # to allow having minima v3 (see https://github.com/jekyll/minima/issues/419#issuecomment-558693485)
+
+# to allow having minima v3 (see https://github.com/jekyll/minima/issues/419#issuecomment-558693485)
+remote_theme: jekyll/minima
 
 exclude:
   - vendor/*

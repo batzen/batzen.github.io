@@ -21,7 +21,7 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
+        <ul>
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -38,9 +38,8 @@
 
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+        <small>Last built {{ site.time }}</small>
       </div>
-
-      <small>Last built {{ site.time }}</small>
     </div>
 
   </div>

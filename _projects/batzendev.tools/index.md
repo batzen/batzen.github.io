@@ -11,8 +11,19 @@ Currently included:
 - Text-Finder: Search and replace text in files
 - File-Finder: Search for files and directories
 
-Binaries for the tool can be found at [chocolatey](https://chocolatey.org/packages/Batzendev.Tools).
+Binaries for the tool can be found at [Chocolatey](https://chocolatey.org/packages/Batzendev.Tools).
+
 If you are using my little tool and encounter any issues or have ideas for improvements feel free to [provide feedback](https://github.com/batzen/Batzendev.Tools).
+
+### Installation
+
+To install simply call `choco install Batzendev.Tools` (given you have Chocolatey installed).
+
+To [install Chocolatey](https://chocolatey.org/install) you can use
+
+`Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))`
+
+from an admnistrative PowerShell console.
 
 ### Text-Finder
 

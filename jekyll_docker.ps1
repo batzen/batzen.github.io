@@ -1,7 +1,7 @@
 Param(
-    [Parameter(Mandatory=$True)]
+    [Parameter(Mandatory=$False)]
     [ValidateSet('build', 'serve', 'update')]
-    [string]$Mode
+    [string]$Mode = 'serve'
 )
 
 if (Get-Command docker-volume-watcher -ErrorAction SilentlyContinue) {
@@ -35,7 +35,7 @@ if ($Mode -ieq "build") {
     $jekyllCommand = "jekyll build"
 }
 elseif ($Mode -ieq 'serve') {
-    $jekyllCommand = "jekyll serve --watch"
+    $jekyllCommand = "jekyll serve --watch --force_polling"
 }
 elseif ($Mode -ieq 'update') {
     $jekyllCommand = "bundle update"
