@@ -50,13 +50,16 @@ Lets you analyze disk usage.
 ### Copy
 
 <img src="images/Copy.png" alt="Screenshot of Copy for many files" width="452" height="307" />
+<br />
 <img src="images/Copy-Large-File.png" alt="Screenshot of Copy for one large file" width="452" height="307" />
-<img src="images/Copy-Console.png" alt="Screenshot of Copy using the console" width="1115" height="628" />
+<br />
+<img src="images/Copy-Console.png" alt="Screenshot of Copy using the console" width="754" height="449" />
 
 ### Delete
 
 <img src="images/Delete.png" alt="Screenshot of Delete" width="452" height="307" />
-<img src="images/Delete-Console.png" alt="Screenshot of Delete using the console" width="1115" height="628" />
+<br />
+<img src="images/Delete-Console.png" alt="Screenshot of Delete using the console" width="771" height="348" />
 
 ### Remarks
 
