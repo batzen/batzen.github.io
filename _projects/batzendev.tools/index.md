@@ -60,7 +60,7 @@ Lets you analyze disk usage.
 
 ### Remarks
 
-Neither Text-Finder nor File-Finder use any kind of caching or indexing.
+None of the features uses any kind of caching or indexing.
 
 ### License
 
